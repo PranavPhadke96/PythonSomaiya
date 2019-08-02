@@ -1,0 +1,87 @@
+I. Install Python for Windows
+
+	1.https://www.python.org/getit/windows/ 
+	
+	2. Click on Latest Python 3 Release 
+	
+	3. Click on Windows x86 executable installer
+	
+	4. Click Run
+	
+	5. Check Install for all users and add Python 3 to path
+	
+	6. Click Install Now
+	
+	7. Look at Start -> All Apps and you'll see IDLE and Python 3
+	
+	8. Go to https://atom.io to install Atom
+	
+	9. Click Download Windows Installer
+	
+	10. Click Run
+	
+	11. Click Welcome and Open a Project and Open a Project
+	
+	14. Right click and create a new folder
+	
+	15. Call the folder PythonCode and click Select Folder
+	
+	16. Click the x to close the Welcome, Settings and Welcome Guide tabs
+	
+	17. Ctrl + Shift + + Increases the font size
+	
+	18. Click Packages -> Command Palette -> Toggle
+	
+	19. Type Install and click Install Packages and Themes
+	
+	20. Type atom-runner and click install
+	
+	21. Type print ("Hello World") and save the file as pythontut.py in the PythonCode folder
+	
+	22. Click Alt - R to run the code
+	
+	23. Try the following code to make sure you are running Python 3.5 or later 
+	
+		a. import sys
+		print (sys.version_info)
+		
+    24. Open IDLE from the start menu
+		
+II. Install for Mac
+ 
+	1. Download Python at https://www.python.org/downloads
+	
+	2. Click Download Python 3.5.1 or later
+	
+	3. Click Open
+	
+	4. Click continue a few times. Agree to the terms and install. You may have to enter your password.
+	
+	5. Go to atom.io to download the Atom Text Editor
+	
+	6. Open it and it will probably go in your Downloads folder. If so put it in your Apps folder which is at Macintosh/Applications
+	
+	7. Open Atom and click Packages -> Command Palette -> Toggle
+	
+	8. Type Install and click Install Packages and Themes
+	
+	9. Type atom-runner and click Packages. Click Install next to atom-runner
+	
+	10. Type print ("Hello World") in the file named untitled and save it as pythontut.py
+	
+	11. Click Control r to run the code
+	
+	12. Check the version of Python atom runner is using by running
+	import sys
+	print (sys.version_info)
+	
+	13. If major doesn't equal 3 find the location of Python by typing which python3 in your terminal
+	
+	14. In Atom click Atom -> Config... and enter this at the end and save
+	runner:
+    scopes:
+      python: "/Library/Frameworks/Python.framework/Versions/3.5/bin/python3"
+      
+    15. If you rerun the code in step 12 you'll see it is using Python 3 now
+    
+    16. You can run IDLE by typing idle3 in your terminal
